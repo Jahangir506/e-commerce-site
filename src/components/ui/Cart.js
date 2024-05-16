@@ -1,3 +1,5 @@
+import SelectProduct from "./SelectProduct";
+
 const Cart = () => {
   return (
     <>
@@ -7,7 +9,10 @@ const Cart = () => {
             <button className="bg-[#212529] uppercase text-sm h-10 font-medium btn-block rounded-md text-white">
               Selected Products
             </button>
-            <h2 className="text-center font-semibold justify-center items-center">
+            <div>
+              <SelectProduct/>
+            </div>
+            <h2 className="text-center lg:text-end font-semibold justify-center items-center">
               Total: $0
             </h2>
             <div className="form-control">
@@ -19,7 +24,7 @@ const Cart = () => {
                 </span>
               </label>
             </div>
-            <div className="card-actions justify-center">
+            <div className="card-actions justify-center lg:justify-end">
               <button className="bg-[#212529] text-white text-sm font-medium p-2.5 rounded uppercase ">Checkout</button>
             </div>
           </div>
