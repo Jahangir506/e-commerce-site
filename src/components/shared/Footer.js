@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <>
-      <footer className="footer lg:max-w-7xl mx-auto p-12">
+      <footer className="footer gird grid grid-cols-2 lg:grid-cols-4 lg:max-w-7xl mx-auto gap-12 p-6 lg:p-12">
         <nav className="text-white space-y-1.5">
           <h6 className="text-lg opacity-95  font-semibold">E-commerce Site</h6>
           <p className="opacity-85">
