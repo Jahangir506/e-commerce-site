@@ -2,13 +2,13 @@ const Cart = () => {
   return (
     <>
       <div className="">
-        <div className="card bg-base-100 rounded shadow-xl border">
-          <div className="card-body p-2">
-            <button className="bg-[#212529] btn-block rounded-md text-white">
+        <div className="card bg-base-100 rounded shadow-xl border border-gray-300">
+          <div className="card-body p-2.5">
+            <button className="bg-[#212529] uppercase text-sm h-10 font-medium btn-block rounded-md text-white">
               Selected Products
             </button>
-            <h2 className="card-title justify-center items-center">
-              Card title!
+            <h2 className="text-center font-semibold justify-center items-center">
+              Total: $0
             </h2>
             <div className="form-control">
               <label className="label cursor-pointer">
@@ -19,8 +19,8 @@ const Cart = () => {
                 </span>
               </label>
             </div>
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">Buy Now</button>
+            <div className="card-actions justify-center">
+              <button className="bg-[#212529] text-white text-sm font-medium p-2.5 rounded uppercase ">Checkout</button>
             </div>
           </div>
         </div>

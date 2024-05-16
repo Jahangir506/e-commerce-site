@@ -3,7 +3,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <>
-      <div className="navbar lg:max-w-7xl mx-auto">
+      <div className="navbar max-w-full lg:max-w-7xl mx-auto">
         <div className="navbar-start">
           
           <a className="btn btn-ghost text-xl">E-commerce Site</a>
